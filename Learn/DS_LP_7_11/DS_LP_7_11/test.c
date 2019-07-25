@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "Stack.h"
-
+#include "Queue.h"
 
 void TestStack()
 {
@@ -30,6 +30,8 @@ void TestStack()
 int main()
 {
 	//TestStack();
+
+	TestQueue();
 
 	system("pause");
 	return 0;

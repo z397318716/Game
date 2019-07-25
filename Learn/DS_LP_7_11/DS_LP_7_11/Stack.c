@@ -35,7 +35,7 @@ void StackPop(Stack* ps)
 SDataType StackTop(Stack* ps)
 {
 	assert(ps);
-	return ps->_array[ps ->_size - 1];
+	return ps->_array[ps->_size - 1];
 }
 int StackSize(Stack* ps)
 {
